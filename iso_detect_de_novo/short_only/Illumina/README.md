@@ -9,4 +9,6 @@ Workflow dependencies:
 
 Workflow summary:
 
+![workflow](lrgasp_short_only_workflow.png)
+
 TODO
