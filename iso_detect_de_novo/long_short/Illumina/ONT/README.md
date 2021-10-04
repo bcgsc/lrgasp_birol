@@ -9,6 +9,7 @@ Workflow dependencies:
 | kallisto | 0.46.2 | https://github.com/pachterlab/kallisto |
 | samtools | 2.20-r1061 | https://github.com/samtools/samtools |
 | NanoSim | 3.0.2 | https://github.com/bcgsc/NanoSim |
+| seqtk | 1.3-r106 | https://github.com/lh3/seqtk |
 
 Workflow summary:
 
