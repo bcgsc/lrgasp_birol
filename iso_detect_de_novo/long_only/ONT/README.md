@@ -6,6 +6,7 @@ Workflow dependencies:
 | Porechop | 0.2.4 | https://github.com/rrwick/Porechop |
 | RNA-Bloom | 1.4.3 | https://github.com/bcgsc/RNA-Bloom |
 | NanoSim | 3.0.2 | https://github.com/bcgsc/NanoSim |
+| seqtk | 1.3-r106 | https://github.com/lh3/seqtk |
 
 Workflow summary:
 
