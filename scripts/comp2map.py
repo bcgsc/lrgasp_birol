@@ -11,6 +11,8 @@ print('read_id', 'transcript_id', sep='\t')
 with open(args.fpath) as fh:
     for line in fh:
         cols = line.split('\t')
-        readname = cols[0]
-        for t in cols[2].split(','):
-            print(readname, t, sep='\t')
+        if len(cols) >= 5:
+            readname = cols[0]
+            if len(cols[2]) > 0:
+                for t in cols[2].split(','):
+                    print(readname, t, sep='\t')
