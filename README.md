@@ -1,4 +1,4 @@
-Team name: **Inanc Birol Lab**
+Team name: **Birol LRGASP Team**
 
 Synapse team ID: [birol_lab](https://www.synapse.org/#!Team:3435627)
 
