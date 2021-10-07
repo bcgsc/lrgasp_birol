@@ -48,7 +48,7 @@ java -jar trimmomatic-0.39.jar PE -phred33 raw_illumina_1.fastq raw_illumina_2.f
 #### 4. RNA-Bloom
 Assemble transcripts from trimmed ONT reads with polishing using trimmed Illumina reads.
 ```
-java -jar RNA-Bloom.jar -t 48 -ntcard -artifact -long fulllength.fastq rescued.fastq unclassified.porechop.fastq -left paired_1.fastq -right paired_2.fastq -rcr -sef unpaired_1.fastq -ser unpaired_2.fastq -fpr 0.005 -indel 20 -p 0.75 -Q 15
+java -jar RNA-Bloom.jar -t 48 -ntcard -artifact -long fulllength.fastq rescued.fastq unclassified.porechop.fastq -sef paired_1.fastq paired_2.fastq unpaired_1.fastq unpaired_2.fastq -fpr 0.005 -indel 20 -p 0.75 -Q 15
 ```
 
 #### 5. minimap2
