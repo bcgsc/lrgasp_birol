@@ -36,7 +36,7 @@ python porechop-runner.py -i unclassified.fastq -o unclassified.porechop.fastq -
 #### 3. RNA-Bloom
 Assemble transcripts from trimmed reads.
 ```
-java -jar RNA-Bloom.jar -t 48 -ntcard -artifact -long fulllength.fastq rescued.fastq unclassified.porechop.fastq -fpr 0.005 -indel 20 -p 0.75 -Q 15
+java -jar RNA-Bloom.jar -t 48 -ntcard -artifact -long fulllength.fastq rescued.fastq unclassified.porechop.fastq -fpr 0.005 -indel 20 -p 0.75 -Q 15 -overlap 100 -length 150
 ```
 
 #### 4. minimap2
