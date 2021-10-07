@@ -27,7 +27,7 @@ java -jar trimmomatic-0.39.jar PE -phred33 raw_1.fastq raw_2.fastq paired_1.fast
 #### 2. RNA-Bloom
 Assemble transcripts from trimmed reads.
 ```
-java -jar RNA-Bloom.jar -t 48 -ntcard -stranded -left paired_1.fastq -right paired_2.fastq -rcr -sef unpaired_1.fastq -ser unpaired_2.fastq -fpr 0.005 -k 25 -indel 2 -q 15 -Q 15
+java -jar RNA-Bloom.jar -t 48 -ntcard -stranded -left paired_1.fastq -right paired_2.fastq -rcr -sef unpaired_1.fastq -ser unpaired_2.fastq -fpr 0.005 -k 25 -indel 2 -q 15 -Q 15 -length 150
 ```
 
 #### 3. Kallisto
